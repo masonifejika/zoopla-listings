@@ -1,0 +1,67 @@
+@import './sassStyles/variables';
+
+/* Import Fonts */
+
+@font-face {
+  font-family:                  'ZooplaSans';
+  src:                          url('fonts/ZooplaSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:                  'ZooplaSans_SemiBold';
+  src:                          url('fonts/ZooplaSans-SemiBold.woff2') format('woff2');
+}
+
+/* MAIN PAGE LAYOUT */
+
+body {
+
+  margin:                       0;
+  padding:                      0;
+  background:                   #fafafa;
+  color:                        $darkGrey;
+  font-family:                  ZooplaSans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing:       antialiased;
+
+  #root {
+
+    /* Page Header */
+
+    > header {
+
+      width:                    100%;
+      background:               #fff;
+      position:                 fixed;
+      z-index:                  3;
+      top:                      0;
+      box-shadow:               0 3px 10px rgba(0, 0, 0, 0.1);
+
+    }
+
+    /* Main Page Section */
+
+    > section {
+
+      margin:                   160px auto;
+      max-width:                $wrapperWidth;
+
+    }
+
+    @media screen and (max-width: $mobileMaxWidth) {
+
+      > section {
+
+        margin:                 90px auto;
+        max-width:              88%;
+
+      }
+
+    }
+
+  }
+  
+}
+
+
+
+

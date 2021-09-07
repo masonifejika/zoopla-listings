@@ -1,0 +1,22 @@
+@import '../sassStyles/variables';
+
+.zoopla-logo {
+
+    width:                  150px;
+    margin:                 35px;
+    fill:                   $zooplaPurple;
+
+}
+
+/* Responsive Layout */
+
+@media screen and (max-width: $mobileMaxWidth) {
+
+    .zoopla-logo {
+
+        width:              100px;
+        margin:             20px;
+
+    }
+
+}

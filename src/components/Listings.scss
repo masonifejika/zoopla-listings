@@ -1,0 +1,39 @@
+@import '../sassStyles/variables.scss';
+
+/* Listings Title */
+
+section > h2 {
+
+    font-size:              20px;
+
+}
+
+@media screen and (max-width: $mobileMaxWidth) {
+
+    section > h2 {
+
+        font-size:          16px;
+
+    }
+
+}
+
+/* Listings (Container) */
+
+#listings {
+
+    list-style:             none;
+    margin:                 40px 0;
+    padding:                0;
+
+}
+
+@media screen and (max-width: $mobileMaxWidth) {
+
+    #listings {
+
+        margin:             30px 0;
+
+    }
+
+}
