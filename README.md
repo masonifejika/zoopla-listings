@@ -55,7 +55,7 @@ This is what the application looks like when running in your web browser...
 * Written using React with Hooks
 * Styled with Sass (and CSS3)
 * Uses React's Context API and the Provider pattern for state management
-* Components are unit tested with Jest and Enzyme
+* Components are unit tested with Jest and the React Testing Library
 * A RESTful API for the listings is available at http://localhost:3001
 * When a listing is expired (or re-activated), it updates the local database at "db.json"
 * Includes a mobile responsive version, which is activated on devices with a screen width narrower than 480 pixels
